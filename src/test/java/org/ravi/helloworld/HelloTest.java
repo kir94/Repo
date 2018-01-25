@@ -38,9 +38,12 @@ public class HelloTest {
 	
 	@Test 
 	public void w() {
-  		String num = "5";		
-		Assert.assertEquals(num.equals(6));  
-		System.out.println("Test Failed");
+  				
+		int a=5;
+		int b=6;
+		int c =a+b; 
+		Assert.assertEquals(c,"10");
+		System.out.println("Test Failed"+c);
  	}
 	@AfterTest
 	public void afterTest() {
