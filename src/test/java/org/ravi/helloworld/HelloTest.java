@@ -33,8 +33,7 @@ public class HelloTest {
 		Assert.assertEquals(driver.getTitle(), "");
 		System.out.println("Test Passed");
 
-	}
-	
+	}	
 		
 	@AfterTest
 	public void afterTest() {
