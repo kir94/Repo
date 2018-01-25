@@ -35,16 +35,7 @@ public class HelloTest {
 
 	}
 	
-	
-	@Test 
-	public void w() {
-  				
-		int a=5;
-		int b=6;
-		int c =a+b; 
-		//Assert.assertEquals(c,"10");
-		System.out.println("Test Failed"+c);
- 	}
+		
 	@AfterTest
 	public void afterTest() {
 		//driver.close();
